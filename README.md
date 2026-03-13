@@ -30,4 +30,4 @@ Ingrese la cantidad del producto: 4
 
 Producto: Lapiz | Precio: 1000 | Cantidad: 4 | Total: 4000
 
-![alt text](<HISTORIA DE USUARIO-2.jpg>)
+![alt text](image.png)
