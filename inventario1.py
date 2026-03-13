@@ -3,6 +3,10 @@
 # Solicitar el nombre del producto al usuario
 nombre = input("Ingrese el nombre del producto: ")
 
+while not nombre.isalpha():
+    print("Error: solo se permiten letras.")
+    nombre = input("Ingrese el nombre del producto: ")
+
 # Solicitar el precio del producto y validar que sea un número decimal válido
 while True:
     try:
@@ -24,8 +28,3 @@ costo_total = precio * cantidad
 
 # Mostrar la información del producto y el costo total en un formato claro
 print(f"Producto: {nombre} | Precio: {precio} | Cantidad: {cantidad} | Total: {costo_total}")
-
-# Este programa solicita al usuario el nombre, precio y cantidad de un producto.
-# Luego valida que el precio sea un número decimal y que la cantidad sea un número entero.
-# Después calcula el costo total multiplicando el precio por la cantidad
-# y finalmente muestra toda la información del producto en pantalla.
